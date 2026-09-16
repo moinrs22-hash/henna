@@ -161,35 +161,35 @@ const GALLERY_MEDIA_ITEMS = [
     type: 'photo',
     title: 'Royal Rose Backhand Mandala',
     category: 'arabic',
-    url: 'images/backhand-roses-henna.jpg'
+    url: 'images/backhand-roses-henna.jpeg'
   },
   {
     id: 'm_2',
     type: 'photo',
     title: 'Delicate Floral Palm & Fingertip Vines',
     category: 'bridal',
-    url: 'images/palm-floral-henna.jpg'
+    url: 'images/palm-floral-henna.jpeg'
   },
   {
     id: 'm_3',
     type: 'photo',
     title: 'Signature Bridal Masterpiece Showcase',
     category: 'bridal',
-    url: 'images/bridal-collage-henna.jpg'
+    url: 'images/bridal-collage-henna.jpeg'
   },
   {
     id: 'm_4',
     type: 'photo',
     title: 'Mantasha Signature Rose & Henna Pose',
     category: 'bridal',
-    url: 'images/mantasha-artist.jpg'
+    url: 'images/mantasha-artist.jpeg'
   },
   {
     id: 'm_5',
     type: 'photo',
     title: 'Couture Rose Backhand Silhouette',
     category: 'siders',
-    url: 'images/mantasha-aesthetic.jpg'
+    url: 'images/mantasha-aesthetic.jpeg'
   },
   {
     id: 'm_6',
