@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Henna by Mantasha - Mumbai's premier luxury bridal, Arabic, Dubai Gulf and contemporary henna artist. Handcrafted organic henna. Book now: +91 8104593452." />
+  <meta name="keywords" content="Henna by Mantasha, Mehndi Artist Mumbai, Bridal Henna Mumbai, Arabic Mehndi, Dubai Gulf Henna, Organic Henna Cone Mumbai, Best Mehndi Artist" />
+  <meta name="author" content="Henna by Mantasha" />
+
+  <title>Henna by Mantasha | Luxury Bridal Mehndi Artist Mumbai</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Ambient Particles & Subtle Canvas -->
+  <canvas id="particle-canvas"></canvas>
+  <div class="bg-mandala-overlay"></div>
+
+  <!-- ==========================================================================
+       NAVIGATION BAR
+       ========================================================================== -->
+  <nav class="luxury-nav" id="luxuryNav">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-monogram">M</div>
+        <div class="brand-titles">
+          <span class="brand-name">Henna by Mantasha</span>
+          <span class="brand-tag">Luxury Mehndi • Mumbai</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery & Reels</a>
+        <a href="#booking">Book & Rates</a>
+        <a href="#care">Aftercare Guide</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Instagram Link -->
+        <a href="https://www.instagram.com/henna_by_mantasha_?stkn=NTJucHJyaHJtaGV3" target="_blank" rel="noopener noreferrer" class="btn-nav-insta" title="Follow on Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <!-- WhatsApp Booking Direct CTA -->
+        <a href="https://wa.me/9180907053485?text=Hi%20Mantasha%2C%20I%20would%20like%20to%20inquire%20about%20booking%20henna%20for%20my%20event%20in%20Mumbai." target="_blank" rel="noopener noreferrer" class="btn-nav-book">
+          <i class="fab fa-whatsapp"></i> Book Now
+        </a>
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <a href="#about">About Mantasha</a>
+    <a href="#services">Signature Services</a>
+    <a href="#gallery">Gallery & Reels</a>
+    <a href="#booking">Instant Rate Calculator</a>
+    <a href="#care">Henna Aftercare Secrets</a>
+    <a href="#testimonials">Bride Reviews</a>
+    <a href="#contact">Mumbai Location & Contact</a>
+    <a href="https://www.instagram.com/henna_by_mantasha_?stkn=NTJucHJyaHJtaGV3" target="_blank" rel="noopener noreferrer" style="color: var(--gold-light);">
+      <i class="fab fa-instagram"></i> Visit Instagram Profile
+    </a>
+    <a href="tel:+9180907053485" style="color: var(--gold-light);">
+      <i class="fas fa-phone-alt"></i> Call: +91 80907053485
+    </a>
+  </div>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-background-art">
+      <div class="animated-mandala-ring ring-1"></div>
+      <div class="animated-mandala-ring ring-2"></div>
+      <div class="animated-mandala-ring ring-3"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="eyebrow-badge">
+        <i class="fas fa-crown"></i> Mumbai's Premier Luxury Henna Artist
+      </div>
+
+      <div class="hero-title-group">
+        <span class="hero-script-tag">Henna by Mantasha</span>
+        <h1 class="hero-main-title">
+          Timeless <span class="gold-gradient-text">Elegance</span> & Royal Mehndi Art
+        </h1>
+      </div>
+
+      <p class="hero-description">
+        Crafting bespoke bridal stories and contemporary Dubai Gulf designs across Mumbai. 100% natural organic henna cones handcrafted for rich, deep mahogany stains that celebrate your most precious moments.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="https://wa.me/9180907053485?text=Hi%20Mantasha%2C%20I%20would%20like%20to%20book%20a%20bridal%20mehndi%20session%20in%20Mumbai." target="_blank" rel="noopener noreferrer" class="btn-primary">
+          <i class="fab fa-whatsapp"></i> Book Bridal Henna
+        </a>
+        <a href="#gallery" class="btn-secondary">
+          <i class="fas fa-play-circle"></i> View Gallery & Reels
+        </a>
+        <a href="tel:+9180907053485" class="btn-secondary">
+          <i class="fas fa-phone-alt"></i> Call: 80907053485
+        </a>
+      </div>
+
+      <!-- Quick Stats / Highlights Bar -->
+      <div class="hero-stats-bar">
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-heart"></i></div>
+          <div class="stat-info">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Happy Brides</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-leaf"></i></div>
+          <div class="stat-info">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Organic Henna</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="stat-info">
+            <div class="stat-number">Mumbai</div>
+            <div class="stat-label">& Destination</div>
+          </div>
+        </div>
+
+        <div class="stat-item">
+          <div class="stat-icon"><i class="fas fa-star"></i></div>
+          <div class="stat-info">
+            <div class="stat-number">4.9★</div>
+            <div class="stat-label">Client Rating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MARQUEE TICKER TAPE
+       ========================================================================== */ -->
+  <div class="luxury-marquee">
+    <div class="marquee-track">
+      <div class="marquee-item"><i class="fas fa-star"></i> 100% ORGANIC CHEMICAL-FREE CONES</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> DEEP BURGUNDY STAIN GUARANTEE</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> BESPOKE BRIDAL STORYTELLING</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> ON-LOCATION SERVICE ACROSS MUMBAI</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> DUBAI & ARABIC GULF SIGNATURE STYLES</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> CALL / WHATSAPP: 80907053485</div>
+      <!-- Duplicate for seamless looping -->
+      <div class="marquee-item"><i class="fas fa-star"></i> 100% ORGANIC CHEMICAL-FREE CONES</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> DEEP BURGUNDY STAIN GUARANTEE</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> BESPOKE BRIDAL STORYTELLING</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> ON-LOCATION SERVICE ACROSS MUMBAI</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> DUBAI & ARABIC GULF SIGNATURE STYLES</div>
+      <div class="marquee-item"><i class="fas fa-star"></i> CALL / WHATSAPP: 80907053485</div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       ABOUT THE ARTIST SECTION
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <span class="sub-title">The Art & Soul</span>
+        <h2>Where Tradition Meets <span class="gold-gradient-text">Royalty</span></h2>
+        <p>Every bridal henna creation is an heirloom piece crafted with love, precision, and heartfelt emotion.</p>
+        <div class="divider-ornament">
+          <div class="line"></div>
+          <i class="fas fa-gem"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="about-layout">
+        <!-- Visual Column -->
+        <div class="about-visual-column reveal-item">
+          <div class="artist-portrait-card">
+            <div class="artist-image-frame">
+              <img src="images/mantasha-artist.jpg" alt="Mantasha - Luxury Henna Artist Mumbai" />
+            </div>
+            <div class="artist-signature-stamp">
+              <div>
+                <div class="sig-name">Mantasha</div>
+                <div class="sig-title">Lead Mehndi Artist & Designer • Mumbai</div>
+              </div>
+              <a href="https://www.instagram.com/henna_by_mantasha_?stkn=NTJucHJyaHJtaGV3" target="_blank" rel="noopener noreferrer" style="color: var(--gold-light); font-size: 1.4rem;">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="floating-experience-badge">
+            <strong>5+</strong>
+            <span>Years of Mastery</span>
+          </div>
+        </div>
+
+        <!-- Content Column -->
+        <div class="about-content-column reveal-item">
+          <div class="eyebrow-badge">
+            <i class="fas fa-feather-alt"></i> Meet Mantasha
+          </div>
+          <h3>Crafting Sacred Motifs for the Modern Bride</h3>
+          <p>
+            Welcome to <strong>Henna by Mantasha</strong>, Mumbai's boutique destination for haute-couture bridal henna. Born out of a deep reverence for centuries-old Indian traditions blended with sophisticated contemporary Dubai aesthetics, Mantasha treats each client’s hands as a sacred canvas.
+          </p>
+          <p>
+            Whether capturing your unique love story through personalized couple portraits, skylines, and secret initials, or adorning your hands with bold Arabic floral filigree, our promise is an experience of warmth, calmness, and unparalleled stain depth.
+          </p>
+
+          <div class="about-highlights-list">
+            <div class="highlight-box">
+              <i class="fas fa-seedling"></i>
+              <div>
+                <strong>100% Organic Sojat Henna</strong>
+                <span>Infused with pure eucalyptus and lavender oils. Zero PPD, zero synthetic chemicals.</span>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <i class="fas fa-paint-brush"></i>
+              <div>
+                <strong>Bespoke Couple Portraits</strong>
+                <span>Dulha-Dulhan jharokhas, bridal entry elements, and personalized love journey dates.</span>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Graceful Speed & Comfort</strong>
+                <span>Fine micro-detailing executed smoothly so the bride stays relaxed and comfortable.</span>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <i class="fas fa-home"></i>
+              <div>
+                <strong>Mumbai On-Location Service</strong>
+                <span>We travel directly to your home, bridal suite, or luxury wedding venue across Mumbai.</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+            <a href="#services" class="btn-primary">Explore Services</a>
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20would%20like%20to%20discuss%20custom%20henna%20designs." target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              <i class="fab fa-whatsapp"></i> Chat with Mantasha
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SERVICES & PACKAGES SECTION
+       ========================================================================== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <span class="sub-title">Signature Collections</span>
+        <h2>Services & <span class="gold-gradient-text">Bridal Packages</span></h2>
+        <p>Curated packages tailored for weddings, sangeet nights, engagements, and festive celebrations across Mumbai.</p>
+        <div class="divider-ornament">
+          <div class="line"></div>
+          <i class="fas fa-crown"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        <!-- 1. Royal Bridal Package (Featured) -->
+        <div class="service-card featured reveal-item">
+          <span class="service-tag">Most Popular</span>
+          <div class="service-icon-wrapper">
+            <i class="fas fa-crown"></i>
+          </div>
+          <h3>The Royal Bridal Masterpiece</h3>
+          <p>The ultimate bridal heirloom. Intricate micro-fine embroidery motifs covering hands up to elbows and feet up to mid-calf.</p>
+          <ul class="service-features-list">
+            <li><i class="fas fa-check-circle"></i> Custom Dulha-Dulhan portraiture</li>
+            <li><i class="fas fa-check-circle"></i> Vows, hashtags & hidden groom's initials</li>
+            <li><i class="fas fa-check-circle"></i> Full front & back hand symmetry + feet</li>
+            <li><i class="fas fa-check-circle"></i> Complimentary organic aftercare balm kit</li>
+          </ul>
+          <div class="service-card-action">
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20am%20interested%20in%20The%20Royal%20Bridal%20Masterpiece%20package." target="_blank" rel="noopener noreferrer" class="btn-card-inquire">
+              <i class="fab fa-whatsapp"></i> Inquire Royal Bridal
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Semi-Bridal & Engagement -->
+        <div class="service-card reveal-item">
+          <div class="service-icon-wrapper">
+            <i class="fas fa-ring"></i>
+          </div>
+          <h3>Engagement & Sangeet Package</h3>
+          <p>Delicate, feminine, and balanced designs up to mid-forearms. Ideal for modern brides who want elegance with breathing space.</p>
+          <ul class="service-features-list">
+            <li><i class="fas fa-check-circle"></i> Elegant jaal (mesh) & floral mandalas</li>
+            <li><i class="fas fa-check-circle"></i> Front & back hands up to forearms</li>
+            <li><i class="fas fa-check-circle"></i> Lotus and peacock shaded motifs</li>
+            <li><i class="fas fa-check-circle"></i> Quick-drying organic henna blend</li>
+          </ul>
+          <div class="service-card-action">
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20am%20interested%20in%20the%20Engagement%20%26%20Sangeet%20Package." target="_blank" rel="noopener noreferrer" class="btn-card-inquire">
+              <i class="fab fa-whatsapp"></i> Inquire Engagement
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. Dubai & Arabic Gulf -->
+        <div class="service-card reveal-item">
+          <div class="service-icon-wrapper">
+            <i class="fas fa-spa"></i>
+          </div>
+          <h3>Dubai & Arabic Gulf Flow</h3>
+          <p>Bold, architectural negative space floral belting inspired by Middle Eastern and Khaleeji luxury aesthetics.</p>
+          <ul class="service-features-list">
+            <li><i class="fas fa-check-circle"></i> High-contrast bold outlines with fine shading</li>
+            <li><i class="fas fa-check-circle"></i> Diagonal vines & organic roses</li>
+            <li><i class="fas fa-check-circle"></i> Chic wrist cuffs and finger detailing</li>
+            <li><i class="fas fa-check-circle"></i> Striking modern appearance on photographs</li>
+          </ul>
+          <div class="service-card-action">
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20am%20interested%20in%20Dubai%20%26%20Arabic%20Gulf%20designs." target="_blank" rel="noopener noreferrer" class="btn-card-inquire">
+              <i class="fab fa-whatsapp"></i> Inquire Arabic Style
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Minimalist & Siders -->
+        <div class="service-card reveal-item">
+          <div class="service-icon-wrapper">
+            <i class="fas fa-gem"></i>
+          </div>
+          <h3>Minimalist & Chic Siders</h3>
+          <p>Subtle, statement-making jewellery-style henna for bridesmaids, cocktail parties, and modern minimalist lovers.</p>
+          <ul class="service-features-list">
+            <li><i class="fas fa-check-circle"></i> Haathphool & bracelet cuff designs</li>
+            <li><i class="fas fa-check-circle"></i> Ring-finger vines and subtle accents</li>
+            <li><i class="fas fa-check-circle"></i> Fast application (15-20 mins per side)</li>
+            <li><i class="fas fa-check-circle"></i> Perfect for contemporary outfits</li>
+          </ul>
+          <div class="service-card-action">
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20am%20interested%20in%20Minimalist%20%26%20Sider%20designs." target="_blank" rel="noopener noreferrer" class="btn-card-inquire">
+              <i class="fab fa-whatsapp"></i> Inquire Minimalist
+            </a>
+          </div>
+        </div>
+
+        <!-- 5. Team & Guest Mehndi -->
+        <div class="service-card reveal-item">
+          <div class="service-icon-wrapper">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Family & Bridesmaids Team</h3>
+          <p>Dedicated professional mehndi artists team managed by Mantasha to adorn all family members and wedding guests seamlessly.</p>
+          <ul class="service-features-list">
+            <li><i class="fas fa-check-circle"></i> Group packages for 10 to 50+ guests</li>
+            <li><i class="fas fa-check-circle"></i> High-speed, neat designs for crowds</li>
+            <li><i class="fas fa-check-circle"></i> Multiple artists dispatched on-site in Mumbai</li>
+            <li><i class="fas fa-check-circle"></i> Stress-free event timeline coordination</li>
+          </ul>
+          <div class="service-card-action">
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20need%20a%20mehndi%20artist%20team%20for%20my%20wedding%20guests%20in%20Mumbai." target="_blank" rel="noopener noreferrer" class="btn-card-inquire">
+              <i class="fab fa-whatsapp"></i> Inquire Guest Team
+            </a>
+          </div>
+        </div>
+
+        <!-- 6. Festive & Baby Showers -->
+        <div class="service-card reveal-item">
+          <div class="service-icon-wrapper">
+            <i class="fas fa-moon"></i>
+          </div>
+          <h3>Festive & Baby Bump Henna</h3>
+          <p>Specialized appointments for Eid, Karwa Chauth, Teej, Diwali, and gentle skin-safe organic baby bump belly art.</p>
+          <ul class="service-features-list">
+            <li><i class="fas fa-check-circle"></i> 100% natural, pregnancy-safe lavender cones</li>
+            <li><i class="fas fa-check-circle"></i> Festive limited slots & studio appointments</li>
+            <li><i class="fas fa-check-circle"></i> Traditional crescent, floral & mandala art</li>
+            <li><i class="fas fa-check-circle"></i> Home service available across Mumbai</li>
+          </ul>
+          <div class="service-card-action">
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20would%20like%20to%20book%20for%20a%20festival%20or%20baby%20shower." target="_blank" rel="noopener noreferrer" class="btn-card-inquire">
+              <i class="fab fa-whatsapp"></i> Inquire Festive Slot
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       DYNAMIC GALLERY & VIDEO REELS SECTION
+       ========================================================================== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <span class="sub-title">Visual Portfolio</span>
+        <h2>Masterpiece <span class="gold-gradient-text">Gallery & Reels</span></h2>
+        <p>Explore real bridal transformations, Dubai designs, and video reels handcrafted by Mantasha.</p>
+        <div class="divider-ornament">
+          <div class="line"></div>
+          <i class="fas fa-camera"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="gallery-control-bar reveal-item">
+        <div class="filter-pills">
+          <button class="filter-btn active" data-filter="all">All Creations</button>
+          <button class="filter-btn" data-filter="bridal">Bridal</button>
+          <button class="filter-btn" data-filter="arabic">Arabic & Dubai</button>
+          <button class="filter-btn" data-filter="siders">Siders & Chic</button>
+          <button class="filter-btn" data-filter="videos">Video Reels</button>
+        </div>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE BOOKING ESTIMATOR & DIRECT WHATSAPP INQUIRY
+       ========================================================================== -->
+  <section class="booking-section" id="booking">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <span class="sub-title">Plan Your Mehndi</span>
+        <h2>Interactive <span class="gold-gradient-text">Rate Estimator</span></h2>
+        <p>Customize your requirements below to get an instant package estimate and send your customized inquiry directly to Mantasha via WhatsApp.</p>
+        <div class="divider-ornament">
+          <div class="line"></div>
+          <i class="fas fa-calculator"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="booking-grid">
+        <!-- Form Left Card -->
+        <div class="booking-card reveal-item">
+          <form id="bookingCalculatorForm" onsubmit="event.preventDefault();">
+            <div class="form-group-title">
+              <i class="fas fa-paint-brush"></i> Select Required Mehndi Style
+            </div>
+
+            <div class="booking-options-grid">
+              <label class="option-radio-card">
+                <input type="radio" name="calcService" value="bridal_royal" checked />
+                <div class="option-content">
+                  <i class="fas fa-crown"></i>
+                  <div class="option-text">
+                    <strong>Royal Bridal Full</strong>
+                    <span>Arms up to elbows & feet</span>
+                  </div>
+                </div>
+              </label>
+
+              <label class="option-radio-card">
+                <input type="radio" name="calcService" value="engagement" />
+                <div class="option-content">
+                  <i class="fas fa-ring"></i>
+                  <div class="option-text">
+                    <strong>Engagement / Sangeet</strong>
+                    <span>Hands up to mid-forearms</span>
+                  </div>
+                </div>
+              </label>
+
+              <label class="option-radio-card">
+                <input type="radio" name="calcService" value="arabic" />
+                <div class="option-content">
+                  <i class="fas fa-spa"></i>
+                  <div class="option-text">
+                    <strong>Dubai & Arabic Gulf</strong>
+                    <span>Bold modern floral belts</span>
+                  </div>
+                </div>
+              </label>
+
+              <label class="option-radio-card">
+                <input type="radio" name="calcService" value="siders" />
+                <div class="option-content">
+                  <i class="fas fa-gem"></i>
+                  <div class="option-text">
+                    <strong>Minimalist & Siders</strong>
+                    <span>Haathphool & chic accents</span>
+                  </div>
+                </div>
+              </label>
+
+              <label class="option-radio-card" style="grid-column: 1 / -1;">
+                <input type="radio" name="calcService" value="guest" />
+                <div class="option-content">
+                  <i class="fas fa-users"></i>
+                  <div class="option-text">
+                    <strong>Family & Guest Team (5+ Persons)</strong>
+                    <span>Full artist team for sangeet / bridesmaids</span>
+                  </div>
+                </div>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="calcPeopleCount"><i class="fas fa-user-friends"></i> Number of Persons</label>
+                <input type="number" id="calcPeopleCount" class="form-control" value="1" min="1" max="50" />
+              </div>
+
+              <div class="form-group">
+                <label for="calcDateInput"><i class="fas fa-calendar-alt"></i> Event Date</label>
+                <input type="date" id="calcDateInput" class="form-control" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="calcLocationSelect"><i class="fas fa-map-marker-alt"></i> Location in Mumbai</label>
+              <select id="calcLocationSelect" class="form-control">
+                <option value="South Mumbai (Colaba, Nariman Pt, Marine Lines)">South Mumbai (Colaba, Marine Drive, Malabar Hill)</option>
+                <option value="Bandra & Khar (Western Suburbs)" selected>Bandra / Khar / Santacruz (Western Suburbs)</option>
+                <option value="Juhu, Andheri, Lokhandwala & Versova">Juhu / Andheri / Lokhandwala / Versova</option>
+                <option value="Goregaon, Malad, Kandivali & Borivali">Goregaon / Malad / Kandivali / Borivali</option>
+                <option value="Powai, Ghatkopar, Kurla & Chembur">Powai / Ghatkopar / Kurla / Chembur</option>
+                <option value="Thane & Mulund">Thane & Central Suburbs</option>
+                <option value="Navi Mumbai (Vashi, Nerul, Belapur, Panvel)">Navi Mumbai</option>
+                <option value="Outstation / Destination Wedding">Outstation / Destination Wedding</option>
+              </select>
+            </div>
+          </form>
+        </div>
+
+        <!-- Summary Right Panel -->
+        <div class="booking-summary-panel reveal-item">
+          <div class="summary-header">
+            <h3>Your Booking Estimate</h3>
+            <p>Tailored pricing for Henna by Mantasha • Mumbai</p>
+          </div>
+
+          <div class="summary-details-list">
+            <div class="summary-row">
+              <span class="label">Chosen Package:</span>
+              <span class="val" id="summaryServiceName">Royal Bridal Full Package</span>
+            </div>
+            <div class="summary-row">
+              <span class="label">Location:</span>
+              <span class="val" id="summaryLocationName">Bandra & Khar (Western Suburbs)</span>
+            </div>
+            <div class="summary-row">
+              <span class="label">Persons / Hands:</span>
+              <span class="val" id="summaryPeopleVal">1 Person</span>
+            </div>
+            <div class="summary-row">
+              <span class="label">Organic Cones:</span>
+              <span class="val">Included (100% Herbal)</span>
+            </div>
+            <div class="summary-row">
+              <span class="label">Travel Within Mumbai:</span>
+              <span class="val">Doorstep Service</span>
+            </div>
+          </div>
+
+          <div class="summary-total-box">
+            <span class="total-label">Estimated Price:</span>
+            <span class="total-price" id="summaryEstimatedPrice">₹9,999+</span>
+          </div>
+
+          <!-- Direct WhatsApp Action -->
+          <a id="btnSendBookingWhatsApp" href="#" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-inquire">
+            <i class="fab fa-whatsapp" style="font-size: 1.3rem;"></i> Inquire Availability on WhatsApp
+          </a>
+
+          <!-- Direct Call Button -->
+          <a href="tel:+918104593452" class="btn-call-direct">
+            <i class="fas fa-phone-alt"></i> Or Call Mantasha: 8104593452
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       HENNA AFTERCARE SECRETS (TIPS TO GET DEEP DARK STAIN)
+       ========================================================================== -->
+  <section class="care-section" id="care">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <span class="sub-title">The Secret to Deep Mahogany Stains</span>
+        <h2>Mantasha's <span class="gold-gradient-text">Aftercare Secrets</span></h2>
+        <p>Follow these 4 essential steps after your mehndi application to guarantee a breathtaking, rich dark burgundy color for your wedding photos.</p>
+        <div class="divider-ornament">
+          <div class="line"></div>
+          <i class="fas fa-leaf"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="care-cards-grid">
+        <div class="care-step-card reveal-item">
+          <div class="care-step-number">01</div>
+          <div class="care-step-icon"><i class="fas fa-hourglass-half"></i></div>
+          <h4>Keep It On (6-8 Hours)</h4>
+          <p>Let the organic henna dry naturally and remain on your skin for at least 6 to 8 hours (or overnight) for the henna lawsone dye to penetrate deeply.</p>
+        </div>
+
+        <div class="care-step-card reveal-item">
+          <div class="care-step-number">02</div>
+          <div class="care-step-icon"><i class="fas fa-lemon"></i></div>
+          <h4>Lemon & Sugar Nectar</h4>
+          <p>Once dry, dab our special warm lemon and sugar syrup gently with cotton. This seals the paste onto your skin so it continues releasing rich pigment.</p>
+        </div>
+
+        <div class="care-step-card reveal-item">
+          <div class="care-step-number">03</div>
+          <div class="care-step-icon"><i class="fas fa-fire"></i></div>
+          <h4>Clove Steam (Lavang Dhooni)</h4>
+          <p>Heat 4-5 whole cloves on a tawa (pan) and gently warm your hands over the clove fumes. Warmth triggers the natural oxidation of herbal henna.</p>
+        </div>
+
+        <div class="care-step-card reveal-item">
+          <div class="care-step-number">04</div>
+          <div class="care-step-icon"><i class="fas fa-tint-slash"></i></div>
+          <h4>No Water for 12 Hours</h4>
+          <p>Never wash mehndi with water! Scrape off the dried crust with a butter knife or card, then massage mustard oil, coconut oil, or Vicks VapoRub.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CLIENT TESTIMONIALS SECTION
+       ========================================================================== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <span class="sub-title">Bride Stories</span>
+        <h2>Loved by <span class="gold-gradient-text">Mumbai Brides</span></h2>
+        <p>Words of appreciation from our real brides and families across Mumbai.</p>
+        <div class="divider-ornament">
+          <div class="line"></div>
+          <i class="fas fa-heart"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal-item">
+          <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+          <div class="star-rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>
+            "Mantasha made my bridal dreams come true! Her lines are so incredibly fine and symmetrical. She included our proposal date and a miniature of our cat in the design! The stain turned out almost blackish-maroon on my wedding day. Highly recommended!"
+          </p>
+          <div class="bride-profile">
+            <div class="bride-avatar">S</div>
+            <div class="bride-info">
+              <strong>Sana Shaikh</strong>
+              <span>Bridal Client • Bandra, Mumbai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal-item">
+          <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+          <div class="star-rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>
+            "The Dubai Gulf floral pattern Mantasha did for my sister's wedding had everyone talking! Not only is she deeply talented, but her patience and warm personality kept us all smiling during the hectic wedding hours. Plus 100% organic henna, no itching at all."
+          </p>
+          <div class="bride-profile">
+            <div class="bride-avatar">A</div>
+            <div class="bride-info">
+              <strong>Aafiya Khan</strong>
+              <span>Sangeet & Siders • Juhu, Mumbai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal-item">
+          <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+          <div class="star-rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>
+            "Booking Henna by Mantasha was the smoothest part of my wedding planning. Her team handled 25 of our family members so quickly and beautifully in South Mumbai. The organic cones smell lovely and the color stayed vibrant for over two weeks!"
+          </p>
+          <div class="bride-profile">
+            <div class="bride-avatar">R</div>
+            <div class="bride-info">
+              <strong>Roshni Mehta</strong>
+              <span>Wedding Team Booking • Colaba, Mumbai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       LOCATION & CONTACT SECTION (MUMBAI)
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal-item">
+        <span class="sub-title">Connect with Us</span>
+        <h2>Location & <span class="gold-gradient-text">Contact Details</span></h2>
+        <p>Available for bridal appointments and event bookings across Mumbai and destination weddings.</p>
+        <div class="divider-ornament">
+          <div class="line"></div>
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Panel -->
+        <div class="contact-info-panel reveal-item">
+          <div>
+            <h3>Get in Touch with <span class="gold-gradient-text">Mantasha</span></h3>
+            <p class="contact-lead-text">
+              We look forward to being a part of your celebration. For date availability, custom bridal consultations, and pricing inquiries, reach out through phone, WhatsApp, or Instagram.
+            </p>
+
+            <div class="contact-details-list">
+              <!-- Phone -->
+              <div class="contact-detail-row">
+                <div class="contact-icon-box"><i class="fas fa-phone-alt"></i></div>
+                <div class="contact-detail-content">
+                  <span>Direct Phone & WhatsApp</span>
+                  <a href="tel:+918097053485">+91 8097053485 </a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-detail-row">
+                <div class="contact-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-detail-content">
+                  <span>Operating Base & Service Area</span>
+                  <strong>Mumbai, Maharashtra, India</strong>
+                  <div class="mumbai-coverage-tags">
+                    <span class="coverage-pill">South Mumbai</span>
+                    <span class="coverage-pill">Bandra</span>
+                    <span class="coverage-pill">Juhu</span>
+                    <span class="coverage-pill">Andheri</span>
+                    <span class="coverage-pill">Powai</span>
+                    <span class="coverage-pill">Thane</span>
+                    <span class="coverage-pill">Navi Mumbai</span>
+                    <span class="coverage-pill">Destination</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Instagram Profile -->
+              <div class="contact-detail-row">
+                <div class="contact-icon-box"><i class="fab fa-instagram"></i></div>
+                <div class="contact-detail-content">
+                  <span>Official Instagram</span>
+                  <a href="https://www.instagram.com/henna_by_mantasha_?stkn=NTJucHJyaHJtaGV3" target="_blank" rel="noopener noreferrer">
+                    @henna_by_mantasha_
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 14px; flex-wrap: wrap;">
+            <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20am%20calling%20from%20Mumbai%20to%20inquire%20about%20henna%20booking." target="_blank" rel="noopener noreferrer" class="btn-primary" style="flex: 1; text-align: center;">
+              <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+            <a href="tel:+918097053485" class="btn-secondary" style="flex: 1; text-align: center;">
+              <i class="fas fa-phone-alt"></i> Call Now
+            </a>
+          </div>
+        </div>
+
+        <!-- Instagram Feature Card & Mumbai Location Map Graphic -->
+        <div class="location-interactive-card reveal-item">
+          <!-- Instagram Banner Card -->
+          <div class="insta-highlight-banner">
+            <div class="insta-banner-header">
+              <i class="fab fa-instagram"></i>
+              <h4>Follow on Instagram</h4>
+            </div>
+            <div class="insta-handle-badge">@henna_by_mantasha_</div>
+            <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 18px;">
+              Watch our latest bridal application reels, fresh dark stain updates, and client reviews daily!
+            </p>
+            <a href="https://www.instagram.com/henna_by_mantasha_?stkn=NTJucHJyaHJtaGV3" target="_blank" rel="noopener noreferrer" class="btn-insta-follow">
+              <i class="fab fa-instagram"></i> View Official Instagram Profile
+            </a>
+          </div>
+
+          <!-- Stylized Mumbai Map Graphic -->
+          <div class="mumbai-map-graphic">
+            <div class="map-pin-icon"><i class="fas fa-map-pin"></i></div>
+            <h4>Based in Mumbai</h4>
+            <p>MAHARASHTRA, INDIA</p>
+            <p style="margin-top: 8px; font-size: 0.75rem; color: var(--gold-light);">
+              ✦ Doorstep bridal visits & on-venue mehndi sessions arranged across all parts of Mumbai.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="luxury-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <div class="footer-brand-title">Henna by Mantasha</div>
+          <p>
+            Luxury handcrafted bridal, Arabic and contemporary henna art based in Mumbai. Dedicated to perfection, elegance, and rich mahogany stains.
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Mantasha</a></li>
+            <li><a href="#services">Services & Packages</a></li>
+            <li><a href="#gallery">Gallery & Reels</a></li>
+            <li><a href="#booking">Rate Estimator</a></li>
+            <li><a href="#care">Aftercare Guide</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Contact & Social</h4>
+          <ul>
+            <li>
+              <a href="tel:+918097053485"><i class="fas fa-phone-alt"></i> +91 8097053485</a>
+            </li>
+            <li>
+              <a href="https://wa.me/918097053485" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp Booking</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/henna_by_mantasha_?stkn=NTJucHJyaHJtaGV3" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram: @henna_by_mantasha_</a>
+            </li>
+            <li>
+              <span style="color: var(--text-muted); font-size: 0.82rem;"><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>© 2026 Henna by Mantasha. All rights reserved. Mumbai, India.</div>
+        <div>Crafted with Elegance & Organic Passion ❧</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING ACTION DOCK (WHATSAPP & CALL)
+       ========================================================================== -->
+  <div class="floating-action-dock">
+    <a href="https://wa.me/918097053485?text=Hi%20Mantasha%2C%20I%20would%20like%20to%20inquire%20about%20mehndi%20booking%20in%20Mumbai." target="_blank" rel="noopener noreferrer" class="floating-btn whatsapp" title="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+918097053485" class="floating-btn call" title="Call Mantasha (8097053485)">
+      <i class="fas fa-phone-alt"></i>
+    </a>
+  </div>
+
+
+  <!-- ==========================================================================
+       MODAL: FULLSCREEN LIGHTBOX PREVIEW
+       ========================================================================== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content-box">
+      <button class="modal-close-btn" id="closeLightboxBtn" style="color: #fff; top: -35px; right: 0;" aria-label="Close Lightbox">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="lightbox-media-container" id="lightboxMediaContainer">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="lightbox-footer-info">
+        <h4 id="lightboxTitle">Design Title</h4>
+        <a id="lightboxInquireBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 10px 22px; font-size: 0.75rem;">
+          <i class="fab fa-whatsapp"></i> Inquire About This Design
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script src="script.js"></script>
+</body>
+</html>
